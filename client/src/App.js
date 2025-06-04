@@ -32,7 +32,12 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <RouterProvider router={router}/>
+    <>
+    <div>saoko</div>
+        <RouterProvider router={router}/>
+    </>
+
+    
   );
 }
 
